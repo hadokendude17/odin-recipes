@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-family: "Stuart Heavy", sans-serif;
+  text-decoration:dashed;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  font-weight: bold ;
+}
+
+.description {
+  background-color: purple;
+  color: white;
+  font-style: italic;
+
+}.ingredients {
+  background-color:aquamarine;
+  color: brown;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.steps {
+  background-color: yellow;
+  color: red;
+  text-align: right;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  transform: rotate(52deg);
+  border-radius: 8px
+  
+}
