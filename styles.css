@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   font-weight: 900;
-  font-family: "Stuart Heavy", sans-serif;
+  font-family: "Verdana", sans-serif;
   text-decoration:dashed;
 }
 
@@ -9,6 +9,23 @@ h3 {
   text-align: center;
   font-family: "Times New Roman", serif;
   font-weight: bold ;
+}
+
+a {
+  color: blueviolet;
+  background-color: green;
+  font-size: 24px;
+  font-family: "Lucida Console", monospace;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
 }
 
 .description {
@@ -29,13 +46,32 @@ h3 {
   text-align: right;
 }
 
-img {
+#lasagna {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
   width: 300px;
   transform: rotate(52deg);
-  border-radius: 8px
-  
+  border-radius: 8px 
 }
+
+#intro {
+  font-size: 24px;
+  color: cornflowerblue;
+  font-weight: 800px;
+  text-align: center;
+}
+
+#stirfry {
+  height: 456;
+  width: auto;
+  transform: rotate(180);
+  border-radius: 64px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+  #stirhead {
+   font-style:italic;
+  }
