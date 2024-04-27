@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
+
+.cell {
+  width: 33%;
+}
+
+#picture {
+  display: block;
+  border: solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#description {
+  margin: 40px;
+  border: 5px solid red;
+  padding: 30px;
+}
+#ingredients {
+  margin: 40px;
+  border: 5px solid red;
+  padding: 30px;
+}
+#steps {
+  margin: 40px;
+  border: 5px solid red;
+  padding: 30px;
+}
